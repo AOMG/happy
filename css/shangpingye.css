@@ -1,0 +1,117 @@
+#box{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.shan1{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.shan2{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.shan3{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.shangzi1{
+	width: 3.77rem;
+	height: .82rem;
+	position: relative;
+	margin: 0 auto;
+	top: 1.97rem;	
+}
+.shu1{
+	width: .73rem;
+	height: 1.31rem;
+	left: .98rem;
+	top: 7.5rem;
+	position: relative;
+	z-index:999;
+}
+.shu2{
+	width: 1.02rem;
+	height: 2.09rem;
+	position: relative;
+	top: 5.4rem;
+	left: 5.69rem;
+	z-index:999;
+}
+.shantu1{
+	width: 6.22rem;
+	height: 6.13rem;
+	position: relative;
+	margin: 0 auto;
+	top: -.77rem;
+	
+}
+.shantu2{
+	width: 6.8rem;
+	height: 6.11rem;
+	position: relative;
+	left: 0;
+	top: 2.7rem;
+	
+}
+.niao{
+	width: 2.83rem;
+	height: 2.73rem;
+	position: relative;
+	top: .9rem;
+	left: 3.6rem;
+}
+.shantu3{
+	width: 6.11rem;
+	height: 6.11rem;
+	position: relative;
+	margin: 0 auto;
+	top: 2.7rem;
+}
+.yun2{
+	width: 1.43rem;
+	height: .76rem;
+	position: relative;
+	top: -2rem;
+	left: 6.07rem;
+}
+.yun3{
+	width: 1.122rem;
+	height: .76rem;
+	position: relative;
+	top: -5rem;
+	left: 5.05rem;
+}
+.kaiqi{
+	width: 2.25rem;
+	height: .75rem;
+	position: relative;
+	top: 2.5rem;
+	margin: 0 auto;
+}
+.dengludianjihe{
+	width: 2.25rem;
+	height: .73rem;
+	bottom: -1.8rem;
+	position: relative;
+	margin: 0 auto;
+}
+.dengludiaji{
+	width: 100%;
+	height: 100%;
+	border-radius: .5rem;
+	background-color: #fff;
+	border: .03rem solid #FDCA76;
+	color: #FDCA76;
+	font-weight: 600;
+	font-size: .28rem;
+}

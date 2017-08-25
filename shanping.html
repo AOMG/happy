@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device- width, initial-scale=1.0, maximum-scale=1.0,  user-scalable=0">
+	<title>闪屏页</title>
+	<script src="js/rems.js"></script>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/shangpingye.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+</head>
+<body>
+	<div class="dashanpin">
+		<div id="box" class="swiper-container">
+    		<div class="swiper-wrapper">
+        		<div class="o swiper-slide">
+        			<div class="shan1">
+        				<img src="img/shanpingzi1.png" alt="" class="shangzi1 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.7s" swiper-animate-delay="0.1s">
+        				<img src="img/shuzuo.png" alt="" class="shu1 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.7s" swiper-animate-delay="0.1s">
+        				<div class="shu2 ani"swiper-animate-effect="fadeInRight" swiper-animate-duration="0.7s" swiper-animate-delay="0.1s">
+        					<img src="img/shuyou.png" alt="">
+        				</div>
+						    <div class="shantu1 ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.7s" swiper-animate-delay="0.1s">
+             				<img src="img/shanping1.png" alt="">
+           				</div>
+        			</div>	
+        		</div>
+       			<div class="oo swiper-slide">
+       				<div class="shan2">
+       					<img src="img/shanpingzi2.png" alt="" class="shangzi1 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.7s" swiper-animate-delay="0.1s">
+       					<div class="shantu2 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.7s" swiper-animate-delay="0.1s">
+             				<img src="img/shanping2.png" alt="">
+           				</div>
+           				<img src="img/niao.png" alt="" class="niao ani " swiper-animate-effect="zoomIn" swiper-animate-duration="0.7s" swiper-animate-delay="0.1s">
+       				</div>
+       			</div>
+      			<div class="ooo swiper-slide">
+      				<div class="shan2">
+      					<img src="img/shanpingzi3.png" alt="" class="shangzi1 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="0.7s" swiper-animate-delay="0.1s">
+      					<div class="shantu3 ani" swiper-animate-effect="swing" swiper-animate-duration="0.7s" swiper-animate-delay="0.1s">
+             				<img src="img/shanping3.png" alt="">
+           				</div>
+         				<img src="img/yun2.png" alt="" class="yun2 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.7s" swiper-animate-delay="0.1s">
+       				  <img src="img/yun3.png" alt="" class="yun3 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.7s" swiper-animate-delay="0.1s">
+                <form action="denglu.html" method="post">
+                  <div class="dengludianjihe">
+                    <input type="submit" value="开启直播" class="dengludiaji" >
+                  </div>
+                </form>
+      				</div>
+      			</div>
+  			</div>
+   		</div>
+	</div>
+</body>
+</html>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate1.0.2.min.js"></script>
+<script >        
+  var mySwiper = new Swiper ('.swiper-container', {
+    autoplay: 2000,
+    loop : true,
+  onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+    swiperAnimateCache(swiper); //隐藏动画元素 
+    swiperAnimate(swiper); //初始化完成开始动画
+  }, 
+  onSlideChangeEnd: function(swiper){ 
+    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+  } 
+  })      
+</script>
+
+
